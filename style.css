@@ -1,0 +1,67 @@
+	body{
+		margin-right:300px;
+		margin-left: 300px;
+		background-image: url("http://wallpoper.com/images/00/24/27/76/black-graphic_00242776.jpg"); 
+		
+	}
+	.nav{
+		background-color: #595959;
+		color: #ffffff;
+		list-style: none;
+		text-align: center;
+		padding:20px 0 20px 0;
+
+	}
+	.nav > li{
+		display: inline-block;
+		padding-right: 50px;
+	}
+	.nav > li > a{
+		text-decoration: none;
+		color: #ffffff;
+		font-family: sans-serif;
+
+	}
+	.nav > li > a:hover{
+		color: #6692EA;
+	}
+	.header{
+		color:#9932CC;
+		-webkit-text-stroke-width:1px;
+		-webkit-text-stroke-color:#A52A2A;
+		font-size:200%;
+	}
+	h1{
+		color:#5F9EA0;
+		font-size:200%; 
+		-webkit-text-stroke-width:1px;
+		-webkit-text-stroke-color: #8A2BE2;
+		outline: #5F9EA0 thick;
+	}
+	h2{
+		color:#9932CC;
+		-webkit-text-stroke-width:1px;
+		-webkit-text-stroke-color:#A52A2A;
+		font-size:200%;
+	}
+	img{
+		width:200px;
+		height:200px;
+	}
+	
+	#Facebook{
+		width:100px;
+		height:100px; 
+	}
+	#Instagram{
+		width:100px;
+		height:100px; 
+	}	
+	#Snapchat{
+		width:100px;
+		height:100px;
+	}
+	p{
+		font-size: 150%;
+		color:white;
+	}

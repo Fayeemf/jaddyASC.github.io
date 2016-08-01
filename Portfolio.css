@@ -1,0 +1,63 @@
+	body{
+		margin-right:300px;
+		margin-left: 300px;
+		background-image: url("http://wallpoper.com/images/00/24/27/76/black-graphic_00242776.jpg"); 
+		
+	}
+	.nav{
+		background-color: #595959;
+		color: #ffffff;
+		list-style: none;
+		text-align: center;
+		padding:20px 0 20px 0;
+
+	}
+	.nav > li{
+		display: inline-block;
+		padding-right: 50px;
+	}
+	.nav > li > a{
+		text-decoration: none;
+		color: #ffffff;
+		font-family: sans-serif;
+
+	}
+	.nav > li > a:hover{
+		color: #6692EA;
+	}
+	img{
+		width:300px;
+		height:300px;
+	}
+	p{
+		color: white;
+		font-size: 120%
+	}
+	h1{
+		color:#9932CC;
+		-webkit-text-stroke-width:1px;
+		-webkit-text-stroke-color:#A52A2A;
+		font-size:200%;
+	}
+	h2{
+		color:#9932CC;
+		-webkit-text-stroke-width:1px;
+		-webkit-text-stroke-color:#A52A2A;
+		font-size:200%;
+	}
+	h3{
+		color:#9932CC;
+		-webkit-text-stroke-width:1px;
+		-webkit-text-stroke-color:#A52A2A;
+		font-size:200%;
+	}			
+	h4{
+		color:#9932CC;
+		-webkit-text-stroke-width:1px;
+		-webkit-text-stroke-color:#A52A2A;
+		font-size:200%;
+	}			
+	#Certificate{
+		width: 527px;
+		height: 402px;
+	}
