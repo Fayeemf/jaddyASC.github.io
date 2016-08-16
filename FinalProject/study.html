@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang= "en" >
+<html>
+<head>
+    <title> Zone.co | Study </title>
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js" </script>
+    <script src = "dnd.js" ></script>
+    <link rel="stylesheet" type="text/css" href="study.css">
+    <script type="text/javascript" src="study.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/p5.js"></script>
+</head>
+<body background="flo.jpg">
+    <ul class="navigation">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="Study.html">Study Timer</a></li>
+        <li class="nav-item"><a href="Reminders.html">Reminders</a></li>
+        <li class="nav-item"><a href="aboutUs.html">About Us</a></li>
+    </ul>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>    
+    <div class="site-wrap">
+        <h1 id = "title"> Zone </h1>
+        <h2 id = "study"> Study</h2>
+        <h3 id = "Duration" > Time Now :<p id = "time" > </p></h3>
+         <div id = "bandmcontainer">
+            <input type="number" id="Minutes" placeholder="Minutes" >
+        <button onclick="countdown()" id = "button">START</button></div>
+        <div id="Timer"> 0:00</div>
+    </div>
+</body>
+</html>
