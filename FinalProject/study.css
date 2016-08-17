@@ -158,5 +158,8 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
   margin : 0 auto;
   width: 290px;
 }
-
+#Graphic{
+  height: 360px;
+  width: 640px;
+}
 
